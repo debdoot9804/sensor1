@@ -3,5 +3,7 @@ pandas
 pymongo
 scikit-learn
 python-dotenv
+PyYAML
+dill
 -e.
 

@@ -4,8 +4,6 @@ Sensor.egg-info/PKG-INFO
 Sensor.egg-info/SOURCES.txt
 Sensor.egg-info/dependency_links.txt
 Sensor.egg-info/top_level.txt
-configuration/__init__.py
-configuration/mongodb-connection.py
 sensor/__init__.py
 sensor/config.py
 sensor/exception.py
@@ -20,6 +18,7 @@ sensor/components/model_eval.py
 sensor/components/model_pusher.py
 sensor/components/model_trainer.py
 sensor/configuration/__init__.py
+sensor/configuration/mongo_db_connection.py
 sensor/constant/__init__.py
 sensor/constant/application.py
 sensor/constant/database.py
@@ -34,3 +33,5 @@ sensor/entity/artifact_entity.py
 sensor/entity/config_entity.py
 sensor/pipeline/__init__.py
 sensor/pipeline/training_pipeline.py
+sensor/utils/__init__.py
+sensor/utils/main_utils.py
